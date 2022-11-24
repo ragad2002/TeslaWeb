@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import item from './components/Item'
+
 
 import Accessories from './assets/Desktop-Accessories.jpg'
 import ModelS from './assets/Desktop-ModelS.jpeg'
@@ -22,9 +22,10 @@ function App() {
         backgroundImg={SolarPanels}
         leftBtnTxt= 'ORDER NOW'
         leftBtnLinke=''
-        right8tnTxt='LEARN MORE'
+        rightBtnTxt='LEARN MORE'
         rightBtnLink=''
         twoButtons='true'
+        
         />
         <Item
         title='Model S'
@@ -33,7 +34,7 @@ function App() {
         backgroundImg={ModelS}
         leftBtnTxt= 'CUSTOM NOW'
         leftBtnLinke=''
-        right8tnTxt='LEARN MORE'
+        rightBtnTxt='LEARN MORE'
         rightBtnLink=''
         twoButtons='true'
         first
@@ -45,7 +46,7 @@ function App() {
         backgroundImg={Model3}
         leftBtnTxt= 'CUSTOM NOW'
         leftBtnLinke=''
-        right8tnTxt='LEARN MORE'
+        rightBtnTxt='LEARN MORE'
         rightBtnLink=''
         twoButtons='true'
         />
@@ -56,7 +57,7 @@ function App() {
         backgroundImg={ModelX}
         leftBtnTxt= 'CUSTOM NOW'
         leftBtnLinke=''
-        right8tnTxt='LEARN MORE'
+        rightBtnTxt='LEARN MORE'
         rightBtnLink=''
         twoButtons='true'
         />
@@ -67,7 +68,7 @@ function App() {
         backgroundImg={ModelY}
         leftBtnTxt= 'CUSTOM NOW'
         leftBtnLinke=''
-        right8tnTxt='LEARN MORE'
+        rightBtnTxt='LEARN MORE'
         rightBtnLink=''
         twoButtons='true'
         />
@@ -78,7 +79,7 @@ function App() {
         backgroundImg={SolarRoof}
         leftBtnTxt= 'ORDER NOW'
         leftBtnLinke=''
-        right8tnTxt='LEARN MORE'
+        rightBtnTxt='LEARN MORE'
         rightBtnLink=''
         twoButtons='true'
         />
@@ -89,7 +90,7 @@ function App() {
         backgroundImg={Accessories}
         leftBtnTxt= 'SHOP NOW'
         leftBtnLinke=''
-        right8tnTxt='LEARN MORE'
+        rightBtnTxt='LEARN MORE'
         rightBtnLink=''
         twoButtons=''
         />

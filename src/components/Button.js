@@ -1,9 +1,12 @@
 import React from 'react'
-
-function Button() {
+import './Button.css'
+const Button=({ imp, text, link}) => {
   return (
-    <div className='button'> 
-    
+    <div className={`button ${imp === 'secondary' ? 'button_white' : ''}`}> 
+    <a href={link}>
+       {text}
+    </a>
+
     </div>
   )
 }
