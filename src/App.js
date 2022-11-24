@@ -85,7 +85,7 @@ function App() {
         />
         <Item
         title='Accessories'
-        desc='Money-back guarantee'
+        desc='Money-back guarante'
         descLink=''
         backgroundImg={Accessories}
         leftBtnTxt= 'SHOP NOW'
